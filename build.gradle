@@ -13,7 +13,6 @@ repositories {
         url "https://maven.aliyun.com/repository/gradle-plugin"
     }
 }
-
 dependencies {
     implementation "org.projectlombok:lombok:1.18.28"
     annotationProcessor "org.projectlombok:lombok"
