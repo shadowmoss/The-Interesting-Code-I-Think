@@ -2,6 +2,7 @@ package com.ltx.db;
 
 import com.ltx.db.entity.UserDO;
 import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
